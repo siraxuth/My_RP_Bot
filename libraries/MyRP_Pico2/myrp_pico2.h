@@ -164,9 +164,9 @@ void setup_robot()
   pinMode(PWMB, OUTPUT);
   pinMode(BIN1, OUTPUT);
   pinMode(BIN2, OUTPUT);
-  // Serial.print(analogRead(26));
+  // Serial.print(analogRead(A0));
   // Serial.print("  ");
-  // Serial.print(analogRead(27));
+  // Serial.print(analogRead(A1));
   // Serial.print("     ");
   // Serial.print(md_sensorC(0));
   // Serial.print("  ");
@@ -5419,3 +5419,4 @@ _entN:
 }
 
 #endif
+
